@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.contenedor{
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    padding: 10px;
+}
+
+header{
+    height: 100vh;
+    background-image:  url(../img/jake-gard-CetB-bTDBtY-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.head{
+    padding: 0;
+    height: 140%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+
+}
+
+    .menu-navegacion{
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 30vh;
+        height: 40%;
+        background-image: linear-gradient(to right, #c7e0a6 0%, #f1e0867a 100%);
+        display: flex;
+        flex-direction: column;
+        justify-content:space-evenly;
+        align-items: center;
+        box-shadow: 0 0 6px black(0, 0, 0, .5);
+    }
+
+    .spread{
+        transform: translate(0);
+    }
+
+    .menu-navegacion{
+        color: #fff;
+        text-decoration: none;
+
+    }
+
+    .copy{
+        font-weight: 300;
+        font-size: 25px;
+    }
+
+    .titulo{
+        font-size: 60px;
+        margin-bottom: 15px;
+
+    }
+
+    .subtitulo{
+        text-align: center;
+        font-weight: 300;
+        color: rgb(22, 19, 19);
+        margin-bottom: 40px;
+        font-size: 40px;
+
+    }
+
+    .contenedor-servicio{
+        display: flex;
+        justify-content: space-evenly;
+        align-content: space-between;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 1rem;
+    }
+    .img-service img{
+        width: 25rem;
+        margin: 1rem;
+        
+    }
+
+    .service{
+        margin: 1rem;
+    }
+
+    .checklist-servicio{
+        width: 45%;
+    }
+
+    .n-service{
+        margin-bottom: 7px;
+        color: black;
+        display:ruby-base-container;
+    }
+
+    .number{
+        display: inline-block;
+        background-image:linear-gradient(to right, #a8caba 0%, #5d4157 100%);
+        width: 30px;
+        height: 30px;
+        color: #fff;
+        text-align: center;
+        border-radius: 50%;
+        font-weight: 700;
+        line-height: 30px;
+        margin-right: 5px;
+    }
+    .gallery{
+        background-color: #fff;
+    }
+
+    h5{
+        background-color: black;
+    }
+
+    .contenedor-galeria{
+        display:flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        display: -moz-inline-box;
+        
+    }
+    
+    .experts{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+    }
+
+    .cont-expert{
+        width: 30%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .cont-expert img{
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .n-expert{
+        display: inline-block;
+        margin-top: 20px;
+        width: 100%;
+        font-weight: 700;
+    }
+
+    footer{
+        background:rgb(17, 66, 46) ;
+        padding-bottom: 0.1px;
+        border: solid black;
+        height: 100px;
+    
+    }
+
+    .footer-content{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        padding-top: 10px;
+        flex-wrap: wrap;
+        padding-bottom: 0.1px;
+    
+    }
+
+    .contac-us{
+        width: 40%;
+        color: rgb(194, 206, 199);
+        display: inline-block;
+    }
+
+    .brand{
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+    .brand+p{
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+    .social-media{
+        width: 50%;
+        display: flex;
+        justify-content: flex-end;
+        font-size: 30px;
+    }
+
+    .social-media-icon{
+        display: inline block;
+        margin-left: 10px;
+        width: 60px;
+        height: 60px;
+        border: 1px solid #fff;
+        border-radius: 30%;
+        text-align: center;
+        color: #fff;
+    }
+
+    .social-media-icon:hover{
+        background: #fff;
+        color: #5d4157;
+    }
+
+    .social-media-icon i{
+        font-size: 30px;
+        line-height: 60px;
+
+    }
+
+    .line{
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        height: 2px;
+        background-color: #fff;
+        margin-bottom: 30px;
+
+
+
+        
+
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+

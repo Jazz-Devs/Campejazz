@@ -1,0 +1,33 @@
+body{
+    margin:2rem;
+    background-image: url('../img/campo-mexicano.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.list-group {
+    max-width: 460px;
+    margin: 4rem auto;
+}
+.menu {
+    font-weight: 600;
+    font-size: 1rem;
+    display: inline-block;
+    margin: 20px 0;
+    text-decoration: none;
+    position: absolute;
+    padding: 2%;
+    text-align: center;
+}
+
+
+.list-group-item{
+    margin: 1rem;
+    background-color: aqua;
+}
+
+header {
+    text-align: center;
+    margin: 2.5rem;
+}
